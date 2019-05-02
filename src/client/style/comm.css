@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'kkk';
+  src: url(../font/react.ttf),
+  url(../font/react.svg),
+  url(../font/react.woff);
+}
+
+[class^="icon-"] {
+  font-family: 'kkk' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: middle;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-love:after{
+  content: '\e641';
+  font-size:16px;
+}

@@ -1,0 +1,6 @@
+ul,li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+body,html,p,h1,h2,h3{margin:0;padding:0;} 
