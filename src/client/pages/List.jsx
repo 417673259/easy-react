@@ -27,7 +27,7 @@ export default class List extends React.PureComponent {
         list.map(item => (
           <li id={item.id} key={item.name}>
             <Link
-              to={'/sj/'}
+              to={`/${item.url}/`}
             >
             {item.name}
             </Link>

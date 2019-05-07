@@ -14,10 +14,12 @@ export function mock() {
           {
             name: '蕾姆酱',
             imgUrl: lm,
+            url: '/lm/'
           },
           {
             name: '三玖',
-            imgUrl: sj
+            imgUrl: sj,
+            url: '/sj/'
           }
         ]
       })
