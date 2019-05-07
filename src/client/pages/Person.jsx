@@ -2,11 +2,11 @@ import React from 'react';
 import S from './Person.css'
 
 import sj from '../img/sanjiu.jpg';
-import leimu from '../img/leimu.jpg';
+import lm from '../img/leimu.jpg';
 
 const img  = {
   sj,
-  leimu,
+  lm,
 }
 
 export default (props) => {
